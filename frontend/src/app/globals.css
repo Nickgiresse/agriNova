@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&display=swap');
+@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@theme {
+  --color-primary: #00450d;
+  --font-plus-jakarta: 'Plus Jakarta Sans', sans-serif;
+  --color-primary-container: #1b5e20;
+  --color-on-primary: #ffffff;
+  --color-on-primary-fixed-variant: #0c5216;
+  --color-secondary: #006e1c;
+  --color-secondary-fixed: #78dc77;
+  --color-surface: #f7fbf1;
+  --color-surface-container: #ecefe6;
+  --color-surface-container-lowest: #ffffff;
+  --color-on-surface: #191d17;
+  --color-on-surface-variant: #41493e;
+  --color-outline: #717a6d;
+  --color-outline-variant: #c0c9bb;
+  --color-error: #ba1a1a;
+  
+  --font-nunito: 'Nunito', sans-serif;
+  --font-h1: 'Plus Jakarta Sans', 'Nunito', sans-serif;
+  --font-h2: 'Plus Jakarta Sans', 'Nunito', sans-serif;
+  --font-h3: 'Plus Jakarta Sans', 'Nunito', sans-serif;
+  --font-body-md: 'Plus Jakarta Sans', 'Nunito', sans-serif;
+  --font-body-sm: 'Plus Jakarta Sans', 'Nunito', sans-serif;
+  --font-label-caps: 'Plus Jakarta Sans', 'Nunito', sans-serif;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}
